@@ -5,7 +5,7 @@ _pkgname=hid-apple-plugboard
 
 pkgver=4.18.0
 _pkgver=4.18.0
-pkgrel=1
+pkgrel=2
 
 pkgdesc='GNU/Linux kernel module for customizable Apple keyboards. Change fn and other keys. (DKMS)'
 arch=('any')
@@ -21,7 +21,7 @@ source=("git+https://gitlab.com/gavinkflam/${_pkgname}#tag=${_pkgver}"
 
 sha256sums=('SKIP'
             '4b94f1f55febddad5ff60a8918487b883ceadd4e6c3fb280e98e4e235cd09663'
-            'deecad2cdc8beb2159e679065005665fe6ac6934004ce2aa80b2938ba9540ef7')
+            '1af15e6be08c7ade16389dcb78a8ef7a8456d68f9f01fd686779841278d5e871')
 
 package() {
   install -dm755 ${pkgdir}/usr/src/${_pkgname}-${_pkgver}/

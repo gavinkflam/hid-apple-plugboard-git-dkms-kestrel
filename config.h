@@ -31,8 +31,13 @@ static const unsigned int numlock_mode = 1;
  * Please consult input.h for the available keys.
  */
 static const struct apple_key_translation key_mappings[] = {
-//	{ KEY_FN,	KEY_LEFTCTRL },
-//	{ KEY_LEFTCTRL,	KEY_FN },
+	{ KEY_CAPSLOCK,	KEY_LEFTCTRL },
+	{ KEY_FN,	KEY_LEFTMETA },
+	{ KEY_LEFTCTRL,	KEY_FN },
+	{ KEY_LEFTMETA,	KEY_LEFTALT },
+	{ KEY_ENTER,	KEY_RIGHTCTRL },
+	{ KEY_RIGHTALT,	KEY_RIGHTMETA },
+	{ KEY_RIGHTMETA,	KEY_RIGHTALT },
 	{ }
 };
 
@@ -43,7 +48,21 @@ static const struct apple_key_translation key_mappings[] = {
  * device specific fn mappings.
  */
 static const struct apple_key_translation fn_key_mappings[] = {
-//	{ KEY_ENTER,	KEY_ENTER },
+	{ KEY_CAPSLOCK,	KEY_CAPSLOCK },
+	{ KEY_ENTER,	KEY_ENTER },
+	{ KEY_BACKSPACE,	KEY_DELETE },
+	{ KEY_P,	KEY_PRINT },
+	{ KEY_LEFTBRACE,	KEY_SCROLLLOCK },
+	{ KEY_RIGHTBRACE,	KEY_PAUSE },
+	{ KEY_BACKSLASH,	KEY_SYSRQ },
+	{ KEY_H,	KEY_LEFT },
+	{ KEY_J,	KEY_DOWN },
+	{ KEY_K,	KEY_UP },
+	{ KEY_L,	KEY_RIGHT },
+	{ KEY_A,	KEY_HOME },
+	{ KEY_D,	KEY_PAGEDOWN },
+	{ KEY_U,	KEY_PAGEUP },
+	{ KEY_E,	KEY_END },
 	{ }
 };
 
