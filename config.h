@@ -11,7 +11,7 @@
  * 1 = normally media keys, switchable to function keys by holding fn key
  * 2 = normally function keys, switchable to media keys by holding fn key
  */
-static const unsigned int media_key_mode = 1;
+static const unsigned int media_key_mode = 0;
 
 /*
  * Mode of numlock on Apple keyboards

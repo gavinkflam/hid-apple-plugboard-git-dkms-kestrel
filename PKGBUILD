@@ -5,7 +5,7 @@ _pkgname=hid-apple-plugboard
 
 pkgver=4.20.0
 _pkgver=4.20.0
-pkgrel=2
+pkgrel=3
 
 pkgdesc='GNU/Linux kernel module for customizable Apple keyboards. Change fn and other keys. (DKMS)'
 arch=('any')
